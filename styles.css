@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #CE837B;
+}
+
+header {
+    padding: 5px;
+    padding-left: -15vw;
+}
+
+.logo {
+    font-size: 7vw;
+    font-family: 'Pacifico', cursive;
+    color: #F7C8BB;
+    
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.nav-items {
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    background-color: red;
+    text-align: center;
+
+    width: 16vw;
+    
+
+    background: #FDE2DA;
+    border: 5px solid #FFC8B8;
+    box-sizing: border-box;
+    border-radius: 100px;
+
+    color: #DB9986;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.about {
+    font-size: 40pt;
+    font-weight: bolder;
+}
+
+.work {
+    font-size: 27pt;
+    font-weight: bolder;
+    padding-top: 10px;
+    
+}
+
+.contact {
+    font-size: 30pt;
+    font-weight: bolder;
+    padding-top: 5px;
+}
