@@ -11,8 +11,10 @@ body {
     background: #CE837B;
 }
 
+/*NAVIGATION BAR*/
+
 header {
-    padding: 5px;
+    
     padding-left: -15vw;
 }
 
@@ -31,7 +33,7 @@ nav {
 }
 
 .navbar {
-    padding-top: 30px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-around;
     width: 60%;
@@ -40,12 +42,10 @@ nav {
 .nav-items {
     font-family: Arial, Helvetica, sans-serif;
     
-
-    background-color: red;
     text-align: center;
 
     width: 16vw;
-    
+    height: 3vw;
 
     background: #FDE2DA;
     border: 5px solid #FFC8B8;
@@ -53,6 +53,13 @@ nav {
     border-radius: 100px;
 
     color: #DB9986;
+
+    justify-content: center;
+}
+
+.nav-items:hover {
+    width: 17vw;
+    
 }
 
 .navbar li {
@@ -60,19 +67,87 @@ nav {
 }
 
 .about {
-    font-size: 40pt;
+    font-size: 3.5vw;
     font-weight: bolder;
 }
 
 .work {
-    font-size: 27pt;
+    font-size: 2.3vw;
     font-weight: bolder;
-    padding-top: 10px;
-    
+    padding-top: .5vw;
 }
 
 .contact {
-    font-size: 30pt;
+    font-size: 2.3vw;
     font-weight: bolder;
-    padding-top: 5px;
+    padding-top: .5vw;
+    
+}
+
+
+/*CONTENT*/
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+}
+
+.grid-item {
+    display: grid;
+}
+
+.grid-item-1 {
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    color: #FDE2DA;;
+    -webkit-text-stroke-width: .3vw;
+    -webkit-text-stroke-color: #A85740;
+
+    width:50vw;
+    height: 20vw;
+    
+    margin-left: 15vw;
+    margin-top: 5vw;
+
+    
+
+    text-align: center;
+}
+
+.grid-item-2 {
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    color: #FDE2DA;;
+    -webkit-text-stroke-width: .07vw;
+    -webkit-text-stroke-color: #A85740;
+    font-size: 2vw;
+
+    width: 40vw;
+
+    margin-top: 25vw;
+}
+
+.grid-item-3 {
+    display: grid;
+    margin-left: 20vw;
+}
+
+#hi-text {
+    position: sticky;
+    font-size: 10vw;
+}
+
+#im-text {
+    position: sticky;
+    font-size: 10vw;
+}
+
+#im-text::before {
+    content: "\a";
+    white-space: pre;
+}
+
+#main-photo {
+    height: 40vw;
+    width: auto;
 }
